@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "122379492088",
+    "project_id": "devquiz-jorge",
+    "storage_bucket": "devquiz-jorge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122379492088:android:8c42bcbfb405050a08390d",
+        "android_client_info": {
+          "package_name": "com.servercold"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122379492088-mogte6qbgfoo9kj9fbfbd2t4b997vj3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjt4wcDbdktCJ7os0Uec67YkQ_2QaE3W8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122379492088-mogte6qbgfoo9kj9fbfbd2t4b997vj3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
