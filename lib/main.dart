@@ -6,5 +6,6 @@ import 'core/app_widget.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
+  print('Firebase inicializado');
   runApp(AppWidget());
 }

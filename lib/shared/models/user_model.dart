@@ -1,11 +1,13 @@
 import 'dart:convert';
 
 class UserModel {
+  final int id;
   final String name;
   final String photoUrl;
   final int score;
 
   UserModel({
+    required this.id,
     required this.name,
     required this.photoUrl,
     this.score = 0,
@@ -21,6 +23,7 @@ class UserModel {
 
   factory UserModel.fromMap(Map<String, dynamic> map) {
     return UserModel(
+      id: map['id'],
       name: map['name'],
       photoUrl: map['photoUrl'],
       score: map['score'],
